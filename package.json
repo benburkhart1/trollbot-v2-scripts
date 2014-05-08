@@ -18,6 +18,7 @@
   },
   "dependencies": {
 		"net-bible-api": "0.0.2",
+		"wunderbar": "0.0.2",
 		"trollbot-v2-client": "git+ssh://git@github.com:benburkhart1/trollbot-v2-client.git",
 		"ent": "0.1.0",
 		"minimist": "0.0.8"

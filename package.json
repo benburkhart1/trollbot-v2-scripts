@@ -1,0 +1,29 @@
+{
+  "name": "trollbot-v2-scripts",
+  "version": "2.0.0",
+  "description": "Trollbot is an extensible and feature rich IRC bot.",
+  "license": "MIT",
+	"authors": [
+			{
+					"name": "Benjamin Burkhart",
+					"email": "benburkhart1+trollbot@gmail.com",
+					"homepage": "http://www.trollbot.org",
+					"role": "Developer"
+			}
+	],
+  "main": "trollbot-v2-logic.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:benburkhart1/trollbot-v2-scripts.git"
+  },
+  "dependencies": {
+		"net-bible-api": "0.0.2",
+		"trollbot-v2-client": "git+ssh://git@github.com:benburkhart1/trollbot-v2-client.git",
+		"ent": "0.1.0",
+		"minimist": "0.0.8"
+  },
+  "keywords": [
+    "IRC",
+    "Bot"
+  ]
+}
